@@ -6,8 +6,8 @@
     "url": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe",
     "bin": "dolphin.exe",
     "checkver": {
-        "github": "https://dolphin-emu.org/download/",
-        "re": "dolphin-x64-([\\d.]+).exe",
+        "url": "https://dolphin-emu.org/download/",
+        "regex": "dolphin-x64-([\\d.]+).exe",
     },
     "autoupdate": {
         "url": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-$version.exe"
