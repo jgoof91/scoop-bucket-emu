@@ -11,6 +11,7 @@
             "Project64"
         ]
     ],
+    "persist": "Config",
     "checkver": {
         "url": "https://www.pj64-emu.com/nightly-builds",
         "re": "(?<Version>v[\\d.]+-[\\w-]+)"
