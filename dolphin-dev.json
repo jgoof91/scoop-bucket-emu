@@ -1,0 +1,17 @@
+{
+    "homepage": "https://dolphin-emu.org/",
+    "description": "This is the dev build. Dolphin is an emulator for two recent Nintendo video game consoles, for GameCude and Wii",
+    "license": "GNU General Public License v2.0",
+    "version": "5.0-9518",
+    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-9518-x64.7z",
+    "hash": "e1b3ae8fc890c6588e5656f77ef2747ae7ddfc90b6530b240c0c5b9d0ab3ce8c",
+    "extract_dir": "Dolphin-x64",
+    "bin": "dolphin.exe",
+    "checkver": {
+        "url": "https://dolphin-emu.org/download/buildlist",
+        "regex": "\\[\\s?\"([\\d.-]+)\""
+    },
+    "autoupdate": {
+        "url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
+    }
+}
