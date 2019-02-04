@@ -22,9 +22,9 @@
     "extract_dir": "nightly-mingw",
     "checkver": {
         "github": "https://github.com/citra-emu/citra-nightly",
-        "regex": "(nightly-[\\d]+).*citra-windows-mingw-([\\d-]+)\\.7z"
+        "re": "nightly-(?<Short>[\\d]+).*citra-windows-mingw-(?<Version>[\\d-]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
+        "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-$matchShort/citra-windows-mingw-$matchVersion.7z"
     }
 }
