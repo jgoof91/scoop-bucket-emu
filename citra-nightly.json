@@ -3,25 +3,27 @@
     "description": "Citra is an emulator Nintendo video game Handheld, for 3DS",
     "license": "GNU General Public License v2.0",
     "version": "nightly-1185",
-    "bin": "citra.exe",
+    "bin": ["citra.exe", "citra-qt.exe", "citra-room.exe"],
     "shortcuts": [
         [
             "citra.exe",
             "citra"
+        ],
+        [
+            "citra-qt.exe",
+            "citra-qt"
+            
+        ],
+        [
+            "citra-room.exe",
+            "citra-room"
         ]
     ],
+    "extract_dir": "nightly-mingw",
     "checkver": {
         "github": "https://github.com/citra-emu/citra-nightly",
         "regex": "(nightly-[\\d]+).*citra-windows-mingw-([\\d-]+)\\.7z"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
-            }
-        }
-    }
+        "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
 }
