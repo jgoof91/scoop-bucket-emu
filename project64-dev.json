@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.pj64-emu.com/",
+    "description": "N64 Emulator",
+    "license": "GNU General Public License v2.0",
+    "version": "v2.4.0-886-g23f040c",
+    "url": "https://www.pj64-emu.com/file/v2-4-0-886-g23f040c/",
+    "bin": "Project64.exe",
+    "shortcuts": [
+        [
+            "Project64.exe",
+            "Project64"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.pj64-emu.com/nightly-builds",
+        "re": "(?<Version>v[\\d.]+-[\\w-]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.pj64-emu.com/file/$matchVersion/"
+    }
+}
