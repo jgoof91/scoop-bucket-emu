@@ -3,7 +3,17 @@
     "description": "Citra is an emulator Nintendo video game Handheld, for 3DS",
     "license": "GNU General Public License v2.0",
     "version": "nightly-1185",
-    "bin": ["citra.exe", "citra-qt.exe", "citra-room.exe"],
+    "bin": [
+        [
+            "citra.exe"
+        ],
+        [
+            "citra-qt.exe"
+        ],
+        [
+            "citra-room.exe"
+        ]
+    ]
     "shortcuts": [
         [
             "citra.exe",
