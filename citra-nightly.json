@@ -15,6 +15,13 @@
         "regex": "(nightly-[\\d]+).*citra-windows-mingw-([\\d-]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/citra-emu/citra-nightly/releases/download/$match1/citra-windows-mingw-$match2.7z"
+            }
+        }
     }
 }
