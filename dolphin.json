@@ -3,7 +3,7 @@
     "description": "Dolphin is an emulator for two recent Nintendo video game consoles, for GameCude and Wii",
     "license": "GNU General Public License v2.0",
     "version": "5.0",
-    "url": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe#/dl.exe",
+    "url": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe#/dl.7z",
     "hash": "e1b3ae8fc890c6588e5656f77ef2747ae7ddfc90b6530b240c0c5b9d0ab3ce8c",
     "bin": "dolphin.exe",
     "checkver": {
@@ -11,6 +11,6 @@
         "regex": "dolphin-x64-([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://dl-mirror.dolphin-emu.org/$version/dolphin-x64-$version.exe#/dl.exe"
+        "url": "https://dl-mirror.dolphin-emu.org/$version/dolphin-x64-$version.exe#/dl.7z"
     }
 }
