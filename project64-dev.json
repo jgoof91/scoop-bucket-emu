@@ -3,7 +3,7 @@
     "description": "N64 Emulator",
     "license": "GNU General Public License v2.0",
     "version": "v2.4.0-886-g23f040c",
-    "url": "https://www.pj64-emu.com/file/v2-4-0-886-g23f040c/",
+    "url": "https://www.pj64-emu.com/file/v2-4-0-886-g23f040c/#\dl.zip",
     "bin": "Project64.exe",
     "shortcuts": [
         [
@@ -16,6 +16,6 @@
         "re": "(?<Version>v[\\d.]+-[\\w-]+)"
     },
     "autoupdate": {
-        "url": "https://www.pj64-emu.com/file/$matchVersion/"
+        "url": "https://www.pj64-emu.com/file/$matchVersion/#\dl.zip"
     }
 }
