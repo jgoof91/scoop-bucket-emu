@@ -2,7 +2,7 @@
     "homepage": "https://citra-emu.org/",
     "description": "Canary build for Citra is an emulator Nintendo video game Handheld, for 3DS",
     "license": "GNU General Public License v2.0",
-    "version": "20190204-bd0f4da",
+    "version": "canary-1189",
     "url": "https://github.com/citra-emu/citra-canary/releases/download/canary-1189/citra-windows-mingw-20190204-bd0f4da.7z",
     "bin": ["citra.exe", "citra-qt.exe", "citra-room.exe"],
     "shortcuts": [
