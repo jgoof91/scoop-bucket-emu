@@ -2,7 +2,7 @@
     "homepage": "https://citra-emu.org/",
     "description": "Nightly build of Citra is an emulator Nintendo video game Handheld, for 3DS",
     "license": "GNU General Public License v2.0",
-    "version": "nightly-1185",
+    "version": "nightly",
     "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-1185/citra-windows-mingw-20190201-2731437.7z",
     "bin": ["citra.exe", "citra-qt.exe", "citra-room.exe"],
     "shortcuts": [
